@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.haldane.katherine.conventioneerapp.AboutActivity" >
+    <item android:id="@+id/action_profileBottomBar"
+        android:title="Profile"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/action_registerBottomBar"
+        android:title="Register"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/action_eventBottomBar"
+        android:title="Find Event"
+        android:orderInCategory="100"
+        android:showAsAction="always"/>
+
+    <!--android:icon="@drawable/ic_launcher"-->
+    <item android:id="@+id/action_conventionBottomBar"
+        android:title="Con Info"
+        android:orderInCategory="100"
+        android:showAsAction="always" />
+
+    <item android:id="@+id/action_about"
+        android:title="About"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView" />
+</menu>

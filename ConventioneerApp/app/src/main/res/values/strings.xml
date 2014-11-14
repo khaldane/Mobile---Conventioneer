@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_app_load">Conventioneer</string>
+    <string name="title_activity_new_user">Welcome to the Conventioneer App!</string>
+    <string name="title_activity_event">Event Details</string>
+    <string name="title_activity_event_list">Find Events</string>
+    <string name="title_activity_profile">My Profile</string>
+    <string name="title_activity_convention_information">Convention Information</string>
+    <string name="app_name">Conventioneer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Strings for new user Page -->
+    <string name="signupText">Create an Account</string>
+    <string name="anonButtonText">Continue Anonymously</string>
+    <string name="multilines">Create an Account\nthis is required to create an event list</string>
+
+    <!-- Strings for Login Home Page -->
+    <string name="LoginPage">Convention App!</string>
+    <string name="Login">Login:</string>
+    <string name="Password">Password:</string>
+    <string name="ForgotPassword">Forgot Password?</string>
+    <string name="Register">Register</string>
+    <string name="ForgotUsername">Forgot Username?</string>
+    <string name="LoginButton">Login!</string>
+
+    <!-- string for event info -->
+    <string name="eventInfo">Event Info</string>
+    <string name="Title">Event Title</string>
+    <string name="addToMyEventlist">Add to My Event List</string>
+    <string name="checkin">Check-In</string>
+    <string name="Date">Date:</string>
+    <string name="Time">Time:</string>
+    <string name="Location">Location:</string>
+    <string name="Description">Description:</string>
+
+    <!-- Profile Info -->
+    <string name="ProfileInfo">Profile Info</string>
+    <string name="YourName">Your Name Here!</string>
+    <string name="Edit">Edit Profile</string>
+    <string name="DOB">DOB:</string>
+    <string name="location">Location:</string>
+    <string name="email">Email:</string>
+    <string name="gender">Gender:</string>
+    <string name="about">About:</string>
+    <string name="dob">Jan 01, 2029</string>
+    <string name="genderPlaceholder">Alien</string>
+    <string name="locationPlaceholder">right here right now</string>
+    <string name="Cancel">Cancel</string>
+    <string name="myEventList">My Event List</string>
+
+    <!-- Convention Info -->
+    <string name="conName">Animeeee North</string>
+    <string name="conDate">Oct 39 - Oct 33, 2257</string>
+    <string name="conLocation">Some St. Torondon Onk.</string>
+    <string name="name">Name:</string>
+    <string name="date">Date:</string>
+    <string name="purchaseTickets">PURCHASE TICKETS</string>
+    <string name="Guest">Guests</string>
+    <string name="Panels">Panels</string>
+    <string name="Workshops">Workshops</string>
+    <string name="map">Map</string>
+
+    <!-- Event Search -->
+    <string name="eventList">Event List:</string>
+    <string name="labelSearch">Search</string>
+    <string name="title_activity_home_tab">HomeTabActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_tab_host">Welcome to the Convention App!</string>
+    <string name="title_activity_test">test</string>
+    <string name="Name">Name:</string>
+    <string name="title_activity_about">About Us</string>
+    <string name="katherinehaldane">Katherine Haldane</string>
+    <string name="jaredlerner">Jared Lerner</string>
+    <string name="year">2014</string>
+
+</resources>

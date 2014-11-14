@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:id="@+id/layoutTop"
+    tools:context="com.haldane.katherine.conventionapp.ConventionInformationActivity"
+    android:screenOrientation="portrait" >
+    <ImageView
+        android:adjustViewBounds="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/animenorth" />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#A5B3AA"
+        android:layout_below="@+id/imageView"/>
+    <ScrollView
+        android:layout_marginTop="0dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/imageView"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+        <LinearLayout
+            android:layout_marginTop="0dp"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:weightSum="1"
+            >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.14"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:background="#FEFEEB"
+                    android:padding="10dp"
+                    >
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="fill_parent"
+                        android:layout_height="83dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginLeft="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:id="@+id/conName"
+                            android:textSize="20dp"
+                            android:text="@string/conName"
+                            android:layout_marginBottom="4dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:id="@+id/startDate"
+                            android:text="@string/conDate"
+                            android:textSize="16dp"
+                            android:layout_marginBottom="4dp" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="16dp"
+                            android:text="@string/conLocation"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:id="@+id/location" />
+                    </LinearLayout>
+                </LinearLayout>
+                <!--<View-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="1dp"-->
+                <!--android:background="#A5B3AA"/>-->
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="fill_parent"
+                    android:layout_height="33dp"
+                    android:text="@string/purchaseTickets"
+                    android:id="@+id/purchaseButton"
+                    android:onClick="onButtonClick"
+                    android:background="@drawable/buttonshape"
+                    android:textColor="#FEFEEB"
+                    android:textSize="12dp"
+                    android:textAllCaps="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"/>
+
+                <TextView
+                    android:padding="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mollis commodo consectetur. Aenean commodo urna massa, quis congue leo porttitor ut. Fusce volutpat sed enim sed semper. Nulla imperdiet, justo vel rhoncus fringilla, purus elit ornare turpis, et consectetur lorem turpis non quam. In hac habitasse platea dictumst. Nam ac libero in turpis scelerisque rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Fusce volutpat erat sed sagittis efficitur. Cras eu fringilla eros. Nam ante mauris, pharetra eget cursus sed, bibendum eget dui. "
+                    android:id="@+id/description"
+                    android:layout_weight="0.84"
+                    android:background="#FEFEEB" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_centerInParent="true"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:weightSum="1"
+                android:layout_marginBottom="6dp"
+                android:layout_marginTop="10dp" >
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="@string/Guest"
+                    android:id="@+id/guestButton"
+                    android:onClick="onButtonClick"
+                    android:textColor="#FEFEEB"
+                    android:background="@drawable/buttonshape"
+                    android:layout_marginRight="3dp"
+                    android:textSize="12sp"
+                    android:textAllCaps="true" />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="@string/Panels"
+                    android:id="@+id/panelButton"
+                    android:onClick="onButtonClick"
+                    android:textColor="#FEFEEB"
+                    android:background="@drawable/buttonshape"
+                    android:layout_marginLeft="3dp"
+                    android:textSize="12sp"
+                    android:textAllCaps="true" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_centerInParent="true"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="33dp"
+                android:weightSum="1"
+                android:layout_marginBottom="6dp" >
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="@string/Workshops"
+                    android:id="@+id/workshopButton"
+                    android:onClick="onButtonClick"
+                    android:textColor="#FEFEEB"
+                    android:background="@drawable/buttonshape"
+                    android:layout_marginRight="3dp"
+                    android:textSize="12sp"
+                    android:textAllCaps="true" />
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:text="@string/map"
+                    android:id="@+id/mapButton"
+                    android:onClick="onButtonClick"
+                    android:textColor="#FEFEEB"
+                    android:background="@drawable/buttonshape"
+                    android:layout_marginLeft="3dp"
+                    android:textSize="12sp"
+                    android:textAllCaps="true" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
